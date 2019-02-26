@@ -1,8 +1,8 @@
 using System;
 
-namespace DockerTest.Entities
+namespace DockerTest.Models
 {
-    public class User
+    public class UserViewModel
     {
         public int Id { get; set; }
         public string LastName { get; set; }
